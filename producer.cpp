@@ -53,7 +53,7 @@ int main(int argc, char *argv[]) {
     // unlock the consumers semaphore
     sem_post(&shm_ptr->consumers);
 
-    std::cout << "Producer " << core_id << " iteration #" << std::setw(7) << i << " value "
+    std::cout << "Producer " << core_id << " iteration #" << std::setw(7) << i << " value  "
               << std::setw(20) << shm_ptr->data
               << std::endl;
   }
