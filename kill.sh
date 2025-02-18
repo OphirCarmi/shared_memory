@@ -1,0 +1,2 @@
+killall producer
+killall consumer
