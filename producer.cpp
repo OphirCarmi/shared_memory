@@ -43,24 +43,18 @@ int main(int argc, char *argv[]) {
   sem_init(&shm_ptr->producer, !0, 1);
   sem_init(&shm_ptr->consumers, !0, 0);
 
-  shm_ptr->current_index = -1;
-
   for (int i = 0; i < num_iterations; ++i) {
     // lock the producer semaphore
     sem_wait(&shm_ptr->producer);
 
-    // calc new element position in array
-    shm_ptr->current_index = (shm_ptr->current_index + 1) % N;
-
     // get random number and put it to the new position
-    shm_ptr->data[shm_ptr->current_index] = dist(rng);
+    shm_ptr->data = dist(rng);
 
     // unlock the consumers semaphore
     sem_post(&shm_ptr->consumers);
 
-    std::cout << "Producer " << core_id << " iteration #" << std::setw(7) << i << " array index "
-              << std::setw(2) << shm_ptr->current_index << " value "
-              << std::setw(20) << shm_ptr->data[shm_ptr->current_index]
+    std::cout << "Producer " << core_id << " iteration #" << std::setw(7) << i << " value "
+              << std::setw(20) << shm_ptr->data
               << std::endl;
   }
 

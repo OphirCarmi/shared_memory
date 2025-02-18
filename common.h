@@ -9,13 +9,10 @@
 #include <semaphore.h>
 #include <unistd.h>
 
-constexpr int N{100};
-
 struct Memory {
   sem_t producer;
   sem_t consumers;
-  int current_index{0};
-  std::array<uint64_t, N> data;
+  uint64_t data;
 };
 
 inline void SetAffinity(const int cpu_ind) {

@@ -47,7 +47,7 @@ int main(int argc, char *argv[]) {
     sem_wait(&shm_ptr->consumers);
     
     // copy the number from the array
-    uint64_t current_number{shm_ptr->data[shm_ptr->current_index]};
+    uint64_t current_number{shm_ptr->data};
     
     // unlock the producer semaphore
     sem_post(&shm_ptr->producer);
