@@ -39,486 +39,422 @@ chmod +x ./kill.sh
 # Expected logs
 ```
 Producer 0 attached the memory to its virtual space...
-Producer 0 iteration #      0 value 12483098945771958780
-Consumer 3 has received a shared memory...
-Consumer 3 has attached the shared memory to it's virtual memory space...
-Consumer 3 iteration #      0 number 12483098945771958780 is not prime
-Producer 0 iteration #      1 value 12710897413260211136
-Consumer 3 iteration #      1 number 12710897413260211136 is not prime
-Producer 0 iteration #      2 value  5829403774912911696
-Consumer 3 iteration #      2 number  5829403774912911696 is not prime
-Producer 0 iteration #      3 value  1647443027130575860
-Consumer 3 iteration #      3 number  1647443027130575860 is not prime
-Producer 0 iteration #      4 value  5827266137261114290
-Consumer 3 iteration #      4 number  5827266137261114290 is not prime
-Producer 0 iteration #      5 value   624816152517326719
-Producer 0 iteration #      6 value 17415059939249560773
-Consumer 3 iteration #      5 number   624816152517326719 is not prime
-Consumer 3 iteration #      6 number 17415059939249560773 is not prime
-Producer 0 iteration #      7 value   457148863929876244
-Consumer 3 iteration #      7 number   457148863929876244 is not prime
-Producer 0 iteration #      8 value  1101053443132976116
-Consumer 3 iteration #      8 number  1101053443132976116 is not prime
-Producer 0 iteration #      9 value  2933085584538035320
-Consumer 3 iteration #      9 number  2933085584538035320 is not prime
-Producer 0 iteration #     10 value  6605527672315130347
-Producer 0 iteration #     11 value 16513648483780287522
-Consumer 3 iteration #     10 number  6605527672315130347 is not prime
-Consumer 3 iteration #     11 number 16513648483780287522 is not prime
-Producer 0 iteration #     12 value 12448788521433572276
-Consumer 3 iteration #     12 number 12448788521433572276 is not prime
-Producer 0 iteration #     13 value 12169201208118710340
-Consumer 3 iteration #     13 number 12169201208118710340 is not prime
-Producer 0 iteration #     14 value  4216694758549227388
-Consumer 3 iteration #     14 number  4216694758549227388 is not prime
-Producer 0 iteration #     15 value 17480439852218118034
-Consumer 3 iteration #     15 number 17480439852218118034 is not prime
-Producer 0 iteration #     16 value 10335250223023142946
-Consumer 3 iteration #     16 number 10335250223023142946 is not prime
-Producer 0 iteration #     17 value  3185824158639097054
-Consumer 3 iteration #     17 number  3185824158639097054 is not prime
-Producer 0 iteration #     18 value  7044626879665724320
-Consumer 3 iteration #     18 number  7044626879665724320 is not prime
-Producer 0 iteration #     19 value 17589650747984907783
-Consumer 3 iteration #     19 number 17589650747984907783 is not prime
-Producer 0 iteration #     20 value 14883555612015041167
-Consumer 3 iteration #     20 number 14883555612015041167 is not prime
-Producer 0 iteration #     21 value 11298299094880651144
-Consumer 3 iteration #     21 number 11298299094880651144 is not prime
-Producer 0 iteration #     22 value  3406816662853205156
-Consumer 3 iteration #     22 number  3406816662853205156 is not prime
-Producer 0 iteration #     23 value  2470666164291964818
-Consumer 3 iteration #     23 number  2470666164291964818 is not prime
-Producer 0 iteration #     24 value 15956030215252984521
-Consumer 3 iteration #     24 number 15956030215252984521 is not prime
-Producer 0 iteration #     25 value 16410250555874370035
-Consumer 3 iteration #     25 number 16410250555874370035 is not prime
-Producer 0 iteration #     26 value  1744078778659696894
-Consumer 3 iteration #     26 number  1744078778659696894 is not prime
-Producer 0 iteration #     27 value  1289709190420554242
-Consumer 3 iteration #     27 number  1289709190420554242 is not prime
-Producer 0 iteration #     28 value 11665879236510702164
-Consumer 3 iteration #     28 number 11665879236510702164 is not prime
-Producer 0 iteration #     29 value  6878070520539974776
-Consumer 3 iteration #     29 number  6878070520539974776 is not prime
-Producer 0 iteration #     30 value 14158244738681098817
-Consumer 3 iteration #     30 number 14158244738681098817 is not prime
-Producer 0 iteration #     31 value 13585022411815606359
-Consumer 3 iteration #     31 number 13585022411815606359 is not prime
-Producer 0 iteration #     32 value  1771258447466527955
-Consumer 3 iteration #     32 number  1771258447466527955 is not prime
-Producer 0 iteration #     33 value   271483490286802022
-Consumer 3 iteration #     33 number   271483490286802022 is not prime
-Producer 0 iteration #     34 value 11827588237048392178
-Consumer 3 iteration #     34 number 11827588237048392178 is not prime
-Producer 0 iteration #     35 value  6187623099851920349
-Consumer 3 iteration #     35 number  6187623099851920349 is not prime
-Producer 0 iteration #     36 value 13941116078582168723
-Consumer 3 iteration #     36 number 13941116078582168723 is not prime
-Producer 0 iteration #     37 value 15193395078677210625
-Consumer 3 iteration #     37 number 15193395078677210625 is not prime
-Producer 0 iteration #     38 value  4224521495082691540
-Consumer 3 iteration #     38 number  4224521495082691540 is not prime
-Producer 0 iteration #     39 value 13156260899715678565
-Consumer 3 iteration #     39 number 13156260899715678565 is not prime
-Producer 0 iteration #     40 value 12077090190858912543
-Consumer 3 iteration #     40 number 12077090190858912543 is not prime
-Producer 0 iteration #     41 value  6380977095234970064
-Consumer 3 iteration #     41 number  6380977095234970064 is not prime
-Producer 0 iteration #     42 value  3618640181314558465
-Consumer 3 iteration #     42 number  3618640181314558465 is not prime
-Producer 0 iteration #     43 value  9246960080720963622
-Consumer 3 iteration #     43 number  9246960080720963622 is not prime
-Producer 0 iteration #     44 value  2049810945846172170
-Consumer 3 iteration #     44 number  2049810945846172170 is not prime
-Producer 0 iteration #     45 value  4569075089811475504
-Consumer 3 iteration #     45 number  4569075089811475504 is not prime
-Producer 0 iteration #     46 value 10489471670060865906
-Consumer 3 iteration #     46 number 10489471670060865906 is not prime
-Producer 0 iteration #     47 value 10162650717940263013
-Consumer 3 iteration #     47 number 10162650717940263013 is not prime
-Producer 0 iteration #     48 value 17698913674324112753
-Consumer 3 iteration #     48 number 17698913674324112753 is not prime
-Producer 0 iteration #     49 value  2792842640677861110
-Consumer 3 iteration #     49 number  2792842640677861110 is not prime
-Producer 0 iteration #     50 value 16140704864443570138
-Consumer 3 iteration #     50 number 16140704864443570138 is not prime
-Producer 0 iteration #     51 value 12440103197970361713
-Consumer 3 iteration #     51 number 12440103197970361713 is not prime
-Producer 0 iteration #     52 value  8737685213826925533
-Consumer 3 iteration #     52 number  8737685213826925533 is not prime
-Producer 0 iteration #     53 value 13038437010845346430
-Consumer 3 iteration #     53 number 13038437010845346430 is not prime
-Producer 0 iteration #     54 value 17419878516015170377
-Consumer 3 iteration #     54 number 17419878516015170377 is not prime
-Producer 0 iteration #     55 value  6849444754975099966
-Consumer 3 iteration #     55 number  6849444754975099966 is not prime
-Producer 0 iteration #     56 value  1890726550841638743
-Consumer 3 iteration #     56 number  1890726550841638743 is not prime
-Producer 0 iteration #     57 value 10316372923357469395
-Consumer 3 iteration #     57 number 10316372923357469395 is not prime
-Producer 0 iteration #     58 value  4133960856942573707
-Consumer 3 iteration #     58 number  4133960856942573707 is not prime
-Producer 0 iteration #     59 value  8583184083457601014
-Consumer 3 iteration #     59 number  8583184083457601014 is not prime
-Producer 0 iteration #     60 value  5759012058290216499
-Consumer 3 iteration #     60 number  5759012058290216499 is not prime
-Producer 0 iteration #     61 value 15051179383557254830
-Consumer 3 iteration #     61 number 15051179383557254830 is not prime
-Producer 0 iteration #     62 value 10015170123886663010
-Consumer 3 iteration #     62 number 10015170123886663010 is not prime
-Producer 0 iteration #     63 value 11185412853308755319
-Consumer 3 iteration #     63 number 11185412853308755319 is not prime
-Producer 0 iteration #     64 value 15580333649313876250
-Consumer 3 iteration #     64 number 15580333649313876250 is not prime
-Producer 0 iteration #     65 value 18201632878778701571
-Producer 0 iteration #     66 value 12378147108616035889
-Consumer 3 iteration #     65 number 18201632878778701571 is not prime
-Consumer 3 iteration #     66 number 12378147108616035889 is not prime
-Producer 0 iteration #     67 value  1325651068358696304
-Consumer 3 iteration #     67 number  1325651068358696304 is not prime
-Producer 0 iteration #     68 value 15665809666502954245
-Consumer 3 iteration #     68 number 15665809666502954245 is not prime
-Producer 0 iteration #     69 value  7945140707486044418
-Consumer 3 iteration #     69 number  7945140707486044418 is not prime
-Producer 0 iteration #     70 value  8533099963044748089
-Consumer 3 iteration #     70 number  8533099963044748089 is not prime
-Producer 0 iteration #     71 value  2469126265274849646
-Consumer 3 iteration #     71 number  2469126265274849646 is not prime
-Producer 0 iteration #     72 value 10637118513425789414
-Consumer 3 iteration #     72 number 10637118513425789414 is not prime
-Producer 0 iteration #     73 value  2517763525894998096
-Consumer 3 iteration #     73 number  2517763525894998096 is not prime
-Producer 0 iteration #     74 value 14648178409612242823
-Consumer 3 iteration #     74 number 14648178409612242823 is not prime
-Producer 0 iteration #     75 value  1566331210261407887
-Consumer 3 iteration #     75 number  1566331210261407887 is not prime
-Producer 0 iteration #     76 value  2054793600007203741
-Consumer 3 iteration #     76 number  2054793600007203741 is not prime
-Producer 0 iteration #     77 value 16479726806567109814
-Consumer 3 iteration #     77 number 16479726806567109814 is not prime
-Producer 0 iteration #     78 value 15286635035843697802
-Consumer 3 iteration #     78 number 15286635035843697802 is not prime
-Producer 0 iteration #     79 value  7100838266969135209
-Producer 0 iteration #     80 value  8547580536069660675
-Consumer 1 has received a shared memory...
-Consumer 1 has attached the shared memory to it's virtual memory space...
-Consumer 1 iteration #      0 number  8547580536069660675 is not prime
-Producer 0 iteration #     81 value 10361077315561607103
-Producer 0 iteration #     82 value 10163480639323124056
+Producer 0 iteration #      0 value   5482698876454931888
 Consumer 2 has received a shared memory...
 Consumer 2 has attached the shared memory to it's virtual memory space...
-Consumer 2 iteration #      0 number 10361077315561607103 is not prime
-Consumer 1 iteration #      1 number 10163480639323124056 is not prime
-Producer 0 iteration #     83 value 17561682080920592448
-Consumer 2 iteration #      1 number 17561682080920592448 is not prime
-Producer 0 iteration #     84 value 17454105984211601522
-Consumer 2 iteration #      2 number 17454105984211601522 is not prime
-Producer 0 iteration #     85 value  7466771630980730388
-Consumer 1 iteration #      2 number  7466771630980730388 is not prime
-Consumer 1 iteration #      3 number 11104685384749039303 is not prime
-Producer 0 iteration #     86 value 11104685384749039303
-Producer 0 iteration #     87 value 14657202139811493131
-Consumer 2 iteration #      3 number 14657202139811493131 is not prime
-Producer 0 iteration #     88 value  8151730893454213518
-Consumer 1 iteration #      4 number  8151730893454213518 is not prime
-Consumer 1 iteration #      5 number 10130903864383513044 is not prime
-Producer 0 iteration #     89 value 10130903864383513044
-Producer 0 iteration #     90 value 18134135913065467572
-Consumer 2 iteration #      4 number 18134135913065467572 is not prime
-Consumer 1 iteration #      6 number 11861277968331290224 is not prime
-Producer 0 iteration #     91 value 11861277968331290224
-Producer 0 iteration #     92 value  3576317594210658934
-Consumer 2 iteration #      5 number  3576317594210658934 is not prime
-Consumer 2 iteration #      6 number 18218632806859416206 is not prime
-Producer 0 iteration #     93 value 18218632806859416206
-Producer 0 iteration #     94 value 17662887680649084612
-Consumer 1 iteration #      7 number 17662887680649084612 is not prime
-Producer 0 iteration #     95 value 10331768596881643226
-Consumer 2 iteration #      7 number 10331768596881643226 is not prime
-Producer 0 iteration #     96 value  8334356364183300349
-Producer 0 iteration #     97 value  1649223910890732353
-Consumer 1 iteration #      8 number  1649223910890732353 is not prime
-Producer 0 iteration #     98 value 13802162520450920196
-Consumer 1 iteration #      9 number 13802162520450920196 is not prime
-Consumer 2 iteration #      8 number  8334356364183300349 is not prime
-Producer 0 iteration #     99 value  8570258543668157432
-Consumer 1 iteration #     10 number  8570258543668157432 is not prime
-Consumer 1 iteration #     11 number 16035879841081534599 is not prime
-Producer 0 iteration #    100 value 16035879841081534599
-Producer 0 iteration #    101 value 14237508763117035881
-Consumer 2 iteration #      9 number 14237508763117035881 is not prime
-Producer 0 iteration #    102 value  1354818976457288328
-Consumer 1 iteration #     12 number  1354818976457288328 is not prime
-Consumer 1 iteration #     13 number 13432928011500187450 is not prime
-Producer 0 iteration #    103 value 13432928011500187450
-Producer 0 iteration #    104 value 13690004111310522516
-Consumer 1 iteration #     14 number 13690004111310522516 is not prime
-Producer 0 iteration #    105 value  2570677754260365383
-Consumer 1 iteration #     15 number  2570677754260365383 is not prime
-Producer 0 iteration #    106 value 17825527212979883018
-Consumer 2 iteration #     10 number 17825527212979883018 is not prime
-Producer 0 iteration #    107 value  8517785459834826893
-Producer 0 iteration #    108 value  6069283090057613918
-Consumer 1 iteration #     16 number  6069283090057613918 is not prime
-Producer 0 iteration #    109 value  6630968919944014351
-Producer 0 iteration #    110 value  9672246569403110472
-Consumer 1 iteration #     17 number  6630968919944014351 is not prime
-Consumer 1 iteration #     18 number  9672246569403110472 is not prime
-Producer 0 iteration #    111 value  5216510749658203435
-Consumer 1 iteration #     19 number  5216510749658203435 is not prime
-Producer 0 iteration #    112 value  5590415727574938807
-Consumer 1 iteration #     20 number  5590415727574938807 is not prime
-Producer 0 iteration #    113 value 16610072766352677615
-Consumer 1 iteration #     21 number 16610072766352677615 is not prime
-Producer 0 iteration #    114 value 16193740638102925722
-Consumer 1 iteration #     22 number 16193740638102925722 is not prime
-Producer 0 iteration #    115 value 11523846160291358373
-Consumer 1 iteration #     23 number 11523846160291358373 is not prime
-Producer 0 iteration #    116 value  5042221245043297136
-Consumer 1 iteration #     24 number  5042221245043297136 is not prime
-Producer 0 iteration #    117 value  9831043939791721613
-Consumer 1 iteration #     25 number  9831043939791721613 is not prime
-Producer 0 iteration #    118 value 13149258044171299743
-Consumer 1 iteration #     26 number 13149258044171299743 is not prime
-Producer 0 iteration #    119 value  4744718642611769891
-Consumer 1 iteration #     27 number  4744718642611769891 is not prime
-Producer 0 iteration #    120 value 10074074931085934061
-Consumer 1 iteration #     28 number 10074074931085934061 is not prime
-Producer 0 iteration #    121 value  1590388375141231573
-Producer 0 iteration #    122 value  7861529426486885066
-Consumer 1 iteration #     29 number  1590388375141231573 is not prime
-Consumer 1 iteration #     30 number  7861529426486885066 is not prime
-Producer 0 iteration #    123 value  3317354825633468469
-Consumer 1 iteration #     31 number  3317354825633468469 is not prime
-Producer 0 iteration #    124 value  9198492841118535036
-Consumer 1 iteration #     32 number  9198492841118535036 is not prime
-Producer 0 iteration #    125 value 15337036641223558763
-Producer 0 iteration #    126 value  2201192575741706831
-Consumer 3 iteration #     79 number  7100838266969135209 is not prime
-Consumer 3 iteration #     80 number  2201192575741706831 is not prime
-Producer 0 iteration #    127 value  7187743584792033449
-Producer 0 iteration #    128 value 18201717130553129468
-Consumer 1 iteration #     33 number 15337036641223558763 is prime
-Consumer 1 iteration #     34 number 18201717130553129468 is not prime
-Consumer 1 iteration #     35 number 12191643815627558877 is not prime
-Producer 0 iteration #    129 value 12191643815627558877
-Producer 0 iteration #    130 value 11803526209038144063
-Consumer 1 iteration #     36 number 11803526209038144063 is not prime
-Producer 0 iteration #    131 value  3539140005590620821
-Consumer 1 iteration #     37 number  3539140005590620821 is not prime
-Producer 0 iteration #    132 value    72943652254652170
-Consumer 1 iteration #     38 number    72943652254652170 is not prime
-Producer 0 iteration #    133 value 10226436096791246515
-Consumer 1 iteration #     39 number 10226436096791246515 is not prime
-Producer 0 iteration #    134 value  4586393541371949599
-Consumer 1 iteration #     40 number  4586393541371949599 is not prime
-Producer 0 iteration #    135 value 15097814264592799791
-Consumer 1 iteration #     41 number 15097814264592799791 is not prime
-Producer 0 iteration #    136 value  3606461591132587883
-Consumer 1 iteration #     42 number  3606461591132587883 is not prime
-Producer 0 iteration #    137 value  2981739966615670913
-Producer 0 iteration #    138 value  3641286825167060829
-Consumer 3 iteration #     81 number  7187743584792033449 is prime
-Consumer 3 iteration #     82 number  3641286825167060829 is not prime
-Consumer 3 iteration #     83 number 13946169401946883616 is not prime
-Producer 0 iteration #    139 value 13946169401946883616
-Producer 0 iteration #    140 value  9723112030603238125
-Producer 0 iteration #    141 value 11983761242269919584
-Consumer 3 iteration #     84 number  9723112030603238125 is not prime
-Consumer 3 iteration #     85 number 11983761242269919584 is not prime
-Producer 0 iteration #    142 value  6167885348769104792
-Consumer 3 iteration #     86 number  6167885348769104792 is not prime
-Producer 0 iteration #    143 value 15725631476150730952
-Consumer 3 iteration #     87 number 15725631476150730952 is not prime
-Producer 0 iteration #    144 value 15647741153100132198
-Consumer 3 iteration #     88 number 15647741153100132198 is not prime
-Producer 0 iteration #    145 value 16759778220361949758
-Consumer 3 iteration #     89 number 16759778220361949758 is not prime
-Producer 0 iteration #    146 value 14249354860210828325
-Consumer 3 iteration #     90 number 14249354860210828325 is not prime
-Producer 0 iteration #    147 value 12560211705091767871
-Consumer 3 iteration #     91 number 12560211705091767871 is not prime
-Producer 0 iteration #    148 value  3571027912980359509
-Consumer 3 iteration #     92 number  3571027912980359509 is not prime
-Producer 0 iteration #    149 value  5272364757100087190
-Consumer 3 iteration #     93 number  5272364757100087190 is not prime
-Producer 0 iteration #    150 value  4904530729579853346
-Consumer 3 iteration #     94 number  4904530729579853346 is not prime
-Producer 0 iteration #    151 value  6739961437455899846
-Consumer 3 iteration #     95 number  6739961437455899846 is not prime
-Producer 0 iteration #    152 value 13343789116061239184
-Consumer 3 iteration #     96 number 13343789116061239184 is not prime
-Producer 0 iteration #    153 value   589106086844267211
-Consumer 3 iteration #     97 number   589106086844267211 is not prime
-Producer 0 iteration #    154 value  5280212290595808719
-Consumer 3 iteration #     98 number  5280212290595808719 is not prime
-Producer 0 iteration #    155 value 11312206872019766933
-Consumer 3 iteration #     99 number 11312206872019766933 is not prime
-Producer 0 iteration #    156 value 12767699738706161769
-Consumer 3 iteration #    100 number 12767699738706161769 is not prime
-Producer 0 iteration #    157 value 12996191409308171728
-Consumer 3 iteration #    101 number 12996191409308171728 is not prime
-Producer 0 iteration #    158 value  1605184533277122339
-Consumer 3 iteration #    102 number  1605184533277122339 is not prime
-Producer 0 iteration #    159 value 10328787261351672637
-Consumer 3 iteration #    103 number 10328787261351672637 is not prime
-Producer 0 iteration #    160 value  6882833051274320332
-Consumer 3 iteration #    104 number  6882833051274320332 is not prime
-Producer 0 iteration #    161 value 11201530869114947876
-Consumer 3 iteration #    105 number 11201530869114947876 is not prime
-Producer 0 iteration #    162 value  2439866822252953569
-Consumer 3 iteration #    106 number  2439866822252953569 is not prime
-Producer 0 iteration #    163 value 11658116522261139881
-Producer 0 iteration #    164 value 13944107883259837190
-Consumer 3 iteration #    107 number 11658116522261139881 is not prime
-Consumer 3 iteration #    108 number 13944107883259837190 is not prime
-Producer 0 iteration #    165 value  1963322098851625119
-Consumer 3 iteration #    109 number  1963322098851625119 is not prime
-Producer 0 iteration #    166 value 16999655324099388000
-Consumer 3 iteration #    110 number 16999655324099388000 is not prime
-Producer 0 iteration #    167 value 17986457348755819857
-Consumer 3 iteration #    111 number 17986457348755819857 is not prime
-Producer 0 iteration #    168 value 17322854372825875266
-Consumer 3 iteration #    112 number 17322854372825875266 is not prime
-Producer 0 iteration #    169 value 15627124081650026121
-Consumer 3 iteration #    113 number 15627124081650026121 is not prime
-Producer 0 iteration #    170 value  1132132128036335114
-Consumer 3 iteration #    114 number  1132132128036335114 is not prime
-Producer 0 iteration #    171 value  7757251392168403408
-Consumer 3 iteration #    115 number  7757251392168403408 is not prime
-Producer 0 iteration #    172 value  1641660951869750372
-Consumer 3 iteration #    116 number  1641660951869750372 is not prime
-Producer 0 iteration #    173 value 14731606593517906010
-Consumer 3 iteration #    117 number 14731606593517906010 is not prime
-Producer 0 iteration #    174 value 13441556167385616982
-Consumer 3 iteration #    118 number 13441556167385616982 is not prime
-Producer 0 iteration #    175 value  7720223650942931267
-Producer 0 iteration #    176 value  6058411680312927533
-Consumer 1 iteration #     43 number  2981739966615670913 is prime
-Consumer 1 iteration #     44 number  6058411680312927533 is not prime
-Consumer 1 iteration #     45 number  5804421647884009337 is not prime
-Producer 0 iteration #    177 value  5804421647884009337
-Producer 0 iteration #    178 value 18157899404696002328
-Producer 0 iteration #    179 value  8255436048295352462
-Consumer 1 iteration #     46 number 18157899404696002328 is not prime
-Consumer 1 iteration #     47 number  8255436048295352462 is not prime
-Producer 0 iteration #    180 value  2122552232241730270
-Consumer 1 iteration #     48 number  2122552232241730270 is not prime
-Producer 0 iteration #    181 value  5544310286294880254
-Consumer 1 iteration #     49 number  5544310286294880254 is not prime
-Producer 0 iteration #    182 value 14826027858522880684
-Consumer 1 iteration #     50 number 14826027858522880684 is not prime
-Producer 0 iteration #    183 value   138838352685499980
-Consumer 1 iteration #     51 number   138838352685499980 is not prime
-Producer 0 iteration #    184 value 10695147300879349268
-Consumer 1 iteration #     52 number 10695147300879349268 is not prime
-Producer 0 iteration #    185 value  2572239834265552447
-Consumer 1 iteration #     53 number  2572239834265552447 is not prime
-Producer 0 iteration #    186 value 13811066741525032781
-Consumer 1 iteration #     54 number 13811066741525032781 is not prime
-Producer 0 iteration #    187 value  1619349402583255470
-Consumer 1 iteration #     55 number  1619349402583255470 is not prime
-Producer 0 iteration #    188 value  7989756229916137451
-Consumer 1 iteration #     56 number  7989756229916137451 is not prime
-Producer 0 iteration #    189 value 13577850264317641124
-Consumer 1 iteration #     57 number 13577850264317641124 is not prime
-Producer 0 iteration #    190 value 10212542316966821322
-Consumer 1 iteration #     58 number 10212542316966821322 is not prime
-Producer 0 iteration #    191 value  7228065937850267811
-Consumer 1 iteration #     59 number  7228065937850267811 is not prime
-Producer 0 iteration #    192 value 14792256352068450077
-Producer 0 iteration #    193 value  6450791137625353510
-Consumer 2 iteration #     11 number  8517785459834826893 is prime
-Consumer 2 iteration #     12 number  6450791137625353510 is not prime
-Producer 0 iteration #    194 value  5306270001403453937
-Consumer 2 iteration #     13 number  5306270001403453937 is not prime
-Producer 0 iteration #    195 value 16405005450882992152
-Consumer 2 iteration #     14 number 16405005450882992152 is not prime
-Producer 0 iteration #    196 value 12637957104530125514
-Consumer 2 iteration #     15 number 12637957104530125514 is not prime
-Producer 0 iteration #    197 value  7532614976654415030
-Consumer 2 iteration #     16 number  7532614976654415030 is not prime
-Producer 0 iteration #    198 value   381177133723736507
-Producer 0 iteration #    199 value 15018611052236173162
-Consumer 2 iteration #     17 number   381177133723736507 is not prime
-Consumer 2 iteration #     18 number 15018611052236173162 is not prime
-Producer 0 iteration #    200 value 17768878868377256728
-Consumer 2 iteration #     19 number 17768878868377256728 is not prime
-Producer 0 iteration #    201 value 12352261511545973608
-Consumer 2 iteration #     20 number 12352261511545973608 is not prime
-Producer 0 iteration #    202 value 13055685809579102842
-Consumer 2 iteration #     21 number 13055685809579102842 is not prime
-Producer 0 iteration #    203 value  8496611736039653615
-Consumer 2 iteration #     22 number  8496611736039653615 is not prime
-Producer 0 iteration #    204 value   524890391470908745
-Consumer 2 iteration #     23 number   524890391470908745 is not prime
-Producer 0 iteration #    205 value    76585438746200637
-Consumer 2 iteration #     24 number    76585438746200637 is not prime
-Producer 0 iteration #    206 value   590246629826543944
-Consumer 2 iteration #     25 number   590246629826543944 is not prime
-Producer 0 iteration #    207 value  7776616127453523534
-Consumer 2 iteration #     26 number  7776616127453523534 is not prime
-Producer 0 iteration #    208 value  7008135829690977873
-Consumer 2 iteration #     27 number  7008135829690977873 is not prime
-Producer 0 iteration #    209 value  3685940689492149051
-Consumer 2 iteration #     28 number  3685940689492149051 is not prime
-Producer 0 iteration #    210 value  4502374707910170307
-Producer 0 iteration #    211 value  8583622886301352017
-Consumer 2 iteration #     29 number  4502374707910170307 is not prime
-Consumer 2 iteration #     30 number  8583622886301352017 is not prime
-Consumer 2 iteration #     31 number  9987865013873071915 is not prime
-Producer 0 iteration #    212 value  9987865013873071915
-Producer 0 iteration #    213 value 15196284156543618769
-Producer 0 iteration #    214 value   261950463548856328
-Consumer 2 iteration #     32 number 15196284156543618769 is not prime
-Consumer 2 iteration #     33 number   261950463548856328 is not prime
-Producer 0 iteration #    215 value 13441051258990086858
-Consumer 2 iteration #     34 number 13441051258990086858 is not prime
-Producer 0 iteration #    216 value 16864967541261234960
-Consumer 2 iteration #     35 number 16864967541261234960 is not prime
-Producer 0 iteration #    217 value  7928840070635150927
-Consumer 2 iteration #     36 number  7928840070635150927 is not prime
-Producer 0 iteration #    218 value  9271710298462174965
-Consumer 2 iteration #     37 number  9271710298462174965 is not prime
-Producer 0 iteration #    219 value 15078709484611201050
-Consumer 2 iteration #     38 number 15078709484611201050 is not prime
-Producer 0 iteration #    220 value  6358648064157913764
-Consumer 2 iteration #     39 number  6358648064157913764 is not prime
-Producer 0 iteration #    221 value 11988395883531072940
-Consumer 2 iteration #     40 number 11988395883531072940 is not prime
-Producer 0 iteration #    222 value 18123369123323036728
-Consumer 2 iteration #     41 number 18123369123323036728 is not prime
-Producer 0 iteration #    223 value 11009959644197544186
-Consumer 2 iteration #     42 number 11009959644197544186 is not prime
-Producer 0 iteration #    224 value  1919213637386070200
-Consumer 2 iteration #     43 number  1919213637386070200 is not prime
-Producer 0 iteration #    225 value  6514016140214557050
-Consumer 2 iteration #     44 number  6514016140214557050 is not prime
-Producer 0 iteration #    226 value 10611183627819378051
-Consumer 2 iteration #     45 number 10611183627819378051 is not prime
-Producer 0 iteration #    227 value   117846177868775191
-Consumer 2 iteration #     46 number   117846177868775191 is not prime
-Producer 0 iteration #    228 value 16882642129796777481
-Consumer 2 iteration #     47 number 16882642129796777481 is not prime
-Producer 0 iteration #    229 value 12880956942787279002
-Consumer 2 iteration #     48 number 12880956942787279002 is not prime
-Producer 0 iteration #    230 value 10401961926994490532
-Consumer 2 iteration #     49 number 10401961926994490532 is not prime
-Producer 0 iteration #    231 value 11179440909875264673
-Consumer 2 iteration #     50 number 11179440909875264673 is not prime
-Producer 0 iteration #    232 value 13408196416138641346
-Consumer 2 iteration #     51 number 13408196416138641346 is not prime
-Producer 0 iteration #    233 value  1544011834345015187
-Consumer 2 iteration #     52 number  1544011834345015187 is not prime
-Producer 0 iteration #    234 value  1461904177144402093
-Producer 0 iteration #    235 value 11290137880589566891
-Consumer 2 iteration #     53 number  1461904177144402093 is not prime
-Producer 0 iteration #    236 value  3786904351314664427
-Consumer 2 iteration #     54 number 11290137880589566891 is not prime
-Producer 0 iteration #    237 value 12457012624106449290
-Consumer 2 iteration #     55 number  3786904351314664427 is not prime
-Consumer 2 iteration #     56 number 12457012624106449290 is not prime
-Producer 0 iteration #    238 value  7489485086845734761
-Producer 0 iteration #    239 value 10064827182176214171
+Consumer 2 iteration #      0 number  5482698876454931888 is not prime
+Producer 0 iteration #      1 value  12835134432194230583
+Consumer 3 has received a shared memory...
+Consumer 3 has attached the shared memory to it's virtual memory space...
+Consumer 3 iteration #      0 number 12835134432194230583 is not prime
+Producer 0 iteration #      2 value   2958876851924856035
+Consumer 2 iteration #      1 number  2958876851924856035 is not prime
+Producer 0 iteration #      3 value  17614912136905895761
+Producer 0 iteration #      4 value   1888455964812464599
+Producer 0 iteration #      5 value   5708310635820313874
+Consumer 3 iteration #      1 number  1888455964812464599 is not prime
+Consumer 3 iteration #      2 number  5708310635820313874 is not prime
+Producer 0 iteration #      6 value   9534260160175479655
+Consumer 3 iteration #      3 number  9534260160175479655 is not prime
+Producer 0 iteration #      7 value   2308941604859248940
+Consumer 3 iteration #      4 number  2308941604859248940 is not prime
+Producer 0 iteration #      8 value  17467920828709886430
+Consumer 3 iteration #      5 number 17467920828709886430 is not prime
+Producer 0 iteration #      9 value  15545179353524568413
+Producer 0 iteration #     10 value    501914649978567336
+Consumer 1 has received a shared memory...
+Consumer 1 has attached the shared memory to it's virtual memory space...
+Consumer 1 iteration #      0 number   501914649978567336 is not prime
+Producer 0 iteration #     11 value   3014685672319467598
+Consumer 1 iteration #      1 number  3014685672319467598 is not prime
+Producer 0 iteration #     12 value   4364109314340880384
+Consumer 1 iteration #      2 number  4364109314340880384 is not prime
+Producer 0 iteration #     13 value  12013748120121626791
+Consumer 1 iteration #      3 number 12013748120121626791 is not prime
+Producer 0 iteration #     14 value  10364036877383956123
+Consumer 1 iteration #      4 number 10364036877383956123 is not prime
+Producer 0 iteration #     15 value  11036861606816867290
+Consumer 1 iteration #      5 number 11036861606816867290 is not prime
+Producer 0 iteration #     16 value   2763504112704597859
+Consumer 1 iteration #      6 number  2763504112704597859 is not prime
+Producer 0 iteration #     17 value  16036886365726651370
+Consumer 1 iteration #      7 number 16036886365726651370 is not prime
+Producer 0 iteration #     18 value  14340139660327554666
+Consumer 1 iteration #      8 number 14340139660327554666 is not prime
+Producer 0 iteration #     19 value   8994649564184197719
+Consumer 1 iteration #      9 number  8994649564184197719 is not prime
+Producer 0 iteration #     20 value   4887635994602733324
+Consumer 1 iteration #     10 number  4887635994602733324 is not prime
+Producer 0 iteration #     21 value  18352489287769723664
+Consumer 1 iteration #     11 number 18352489287769723664 is not prime
+Producer 0 iteration #     22 value  12087978304630359111
+Consumer 1 iteration #     12 number 12087978304630359111 is not prime
+Producer 0 iteration #     23 value  14132266451831612639
+Consumer 1 iteration #     13 number 14132266451831612639 is not prime
+Producer 0 iteration #     24 value  15970902506297527090
+Consumer 1 iteration #     14 number 15970902506297527090 is not prime
+Producer 0 iteration #     25 value  11117636177642651720
+Consumer 1 iteration #     15 number 11117636177642651720 is not prime
+Producer 0 iteration #     26 value   3638778183989598285
+Consumer 1 iteration #     16 number  3638778183989598285 is not prime
+Producer 0 iteration #     27 value   1571424262708127542
+Consumer 1 iteration #     17 number  1571424262708127542 is not prime
+Producer 0 iteration #     28 value   6013536397998239803
+Consumer 1 iteration #     18 number  6013536397998239803 is not prime
+Producer 0 iteration #     29 value   6688226706166301432
+Consumer 1 iteration #     19 number  6688226706166301432 is not prime
+Producer 0 iteration #     30 value    163757569874420306
+Consumer 1 iteration #     20 number   163757569874420306 is not prime
+Producer 0 iteration #     31 value  10647622387933400745
+Consumer 1 iteration #     21 number 10647622387933400745 is not prime
+Producer 0 iteration #     32 value     77609613926004623
+Producer 0 iteration #     33 value   2228202789125542828
+Consumer 1 iteration #     22 number    77609613926004623 is not prime
+Consumer 1 iteration #     23 number  2228202789125542828 is not prime
+Producer 0 iteration #     34 value  14780832503064401938
+Consumer 1 iteration #     24 number 14780832503064401938 is not prime
+Producer 0 iteration #     35 value   8406069110651164124
+Consumer 1 iteration #     25 number  8406069110651164124 is not prime
+Producer 0 iteration #     36 value   2368705011842112328
+Consumer 1 iteration #     26 number  2368705011842112328 is not prime
+Producer 0 iteration #     37 value  13186968010639916989
+Producer 0 iteration #     38 value   8310400911208242587
+Consumer 1 iteration #     27 number 13186968010639916989 is prime
+Consumer 1 iteration #     28 number  8310400911208242587 is not prime
+Producer 0 iteration #     39 value   4006334363317896133
+Producer 0 iteration #     40 value  18383301211229263205
+Consumer 1 iteration #     29 number  4006334363317896133 is not prime
+Consumer 1 iteration #     30 number 18383301211229263205 is not prime
+Producer 0 iteration #     41 value   2189306944578839506
+Consumer 1 iteration #     31 number  2189306944578839506 is not prime
+Producer 0 iteration #     42 value   5561587873167857188
+Consumer 1 iteration #     32 number  5561587873167857188 is not prime
+Producer 0 iteration #     43 value  10968321864896746738
+Consumer 1 iteration #     33 number 10968321864896746738 is not prime
+Producer 0 iteration #     44 value  15269128229891799433
+Producer 0 iteration #     45 value   3455824617593558263
+Consumer 1 iteration #     34 number 15269128229891799433 is not prime
+Consumer 1 iteration #     35 number  3455824617593558263 is not prime
+Producer 0 iteration #     46 value   9187101064444542247
+Consumer 1 iteration #     36 number  9187101064444542247 is not prime
+Producer 0 iteration #     47 value  11249630001646367135
+Consumer 1 iteration #     37 number 11249630001646367135 is not prime
+Producer 0 iteration #     48 value  13734399740029454604
+Consumer 1 iteration #     38 number 13734399740029454604 is not prime
+Producer 0 iteration #     49 value   8650933682872190577
+Consumer 1 iteration #     39 number  8650933682872190577 is not prime
+Producer 0 iteration #     50 value   7074365758701589631
+Producer 0 iteration #     51 value  15164769597611200231
+Consumer 1 iteration #     40 number  7074365758701589631 is not prime
+Consumer 1 iteration #     41 number 15164769597611200231 is not prime
+Consumer 1 iteration #     42 number  3850435439013469458 is not prime
+Producer 0 iteration #     52 value   3850435439013469458
+Producer 0 iteration #     53 value  18287792308518216201
+Producer 0 iteration #     54 value  11614461420060051096
+Consumer 1 iteration #     43 number 18287792308518216201 is not prime
+Consumer 1 iteration #     44 number 11614461420060051096 is not prime
+Producer 0 iteration #     55 value   2091181103158083848
+Consumer 1 iteration #     45 number  2091181103158083848 is not prime
+Producer 0 iteration #     56 value  15401950894925667391
+Consumer 1 iteration #     46 number 15401950894925667391 is not prime
+Producer 0 iteration #     57 value  10670543950445017751
+Consumer 1 iteration #     47 number 10670543950445017751 is not prime
+Producer 0 iteration #     58 value  14730332734242239471
+Consumer 1 iteration #     48 number 14730332734242239471 is not prime
+Producer 0 iteration #     59 value  17341712167948885124
+Consumer 1 iteration #     49 number 17341712167948885124 is not prime
+Producer 0 iteration #     60 value  17334444357834427518
+Consumer 1 iteration #     50 number 17334444357834427518 is not prime
+Producer 0 iteration #     61 value  17776361955228961041
+Consumer 1 iteration #     51 number 17776361955228961041 is not prime
+Producer 0 iteration #     62 value  13561353791130770444
+Consumer 1 iteration #     52 number 13561353791130770444 is not prime
+Producer 0 iteration #     63 value   9151413693270793128
+Consumer 1 iteration #     53 number  9151413693270793128 is not prime
+Producer 0 iteration #     64 value  15331624835279203601
+Consumer 1 iteration #     54 number 15331624835279203601 is not prime
+Producer 0 iteration #     65 value  13415048997704584846
+Consumer 1 iteration #     55 number 13415048997704584846 is not prime
+Producer 0 iteration #     66 value  16521345573524496904
+Consumer 1 iteration #     56 number 16521345573524496904 is not prime
+Producer 0 iteration #     67 value  14622718315983681538
+Consumer 1 iteration #     57 number 14622718315983681538 is not prime
+Producer 0 iteration #     68 value   4496942490879008694
+Consumer 1 iteration #     58 number  4496942490879008694 is not prime
+Producer 0 iteration #     69 value   6462496700333185042
+Consumer 1 iteration #     59 number  6462496700333185042 is not prime
+Producer 0 iteration #     70 value   9512187902445837399
+Consumer 1 iteration #     60 number  9512187902445837399 is not prime
+Producer 0 iteration #     71 value  10564652541757071614
+Consumer 1 iteration #     61 number 10564652541757071614 is not prime
+Producer 0 iteration #     72 value   5894367818267158888
+Consumer 1 iteration #     62 number  5894367818267158888 is not prime
+Consumer 1 iteration #     63 number  8904507411112373622 is not prime
+Producer 0 iteration #     73 value   8904507411112373622
+Producer 0 iteration #     74 value   5323286272135782019
+Producer 0 iteration #     75 value  12000506377089578656
+Consumer 1 iteration #     64 number  5323286272135782019 is prime
+Consumer 1 iteration #     65 number 12000506377089578656 is not prime
+Consumer 1 iteration #     66 number  9348196152510480530 is not prime
+Producer 0 iteration #     76 value   9348196152510480530
+Producer 0 iteration #     77 value   8826007577472858947
+Producer 0 iteration #     78 value   3851980646699213029
+Consumer 1 iteration #     67 number  8826007577472858947 is not prime
+Consumer 1 iteration #     68 number  3851980646699213029 is not prime
+Producer 0 iteration #     79 value  13986393631244533812
+Producer 0 iteration #     80 value   7935660853445277343
+Consumer 1 iteration #     69 number 13986393631244533812 is not prime
+Consumer 1 iteration #     70 number  7935660853445277343 is not prime
+Producer 0 iteration #     81 value   2926075023568186528
+Consumer 1 iteration #     71 number  2926075023568186528 is not prime
+Producer 0 iteration #     82 value  15388723001531467984
+Consumer 1 iteration #     72 number 15388723001531467984 is not prime
+Producer 0 iteration #     83 value  11216779406398595665
+Consumer 1 iteration #     73 number 11216779406398595665 is not prime
+Producer 0 iteration #     84 value  13613565934822097780
+Consumer 1 iteration #     74 number 13613565934822097780 is not prime
+Producer 0 iteration #     85 value  10618617426027575947
+Consumer 1 iteration #     75 number 10618617426027575947 is not prime
+Producer 0 iteration #     86 value  15060707720666792675
+Consumer 1 iteration #     76 number 15060707720666792675 is not prime
+Producer 0 iteration #     87 value  13413426742206659045
+Consumer 1 iteration #     77 number 13413426742206659045 is not prime
+Producer 0 iteration #     88 value  14158434077775433619
+Producer 0 iteration #     89 value   5392830684238212395
+Consumer 1 iteration #     78 number 14158434077775433619 is not prime
+Consumer 1 iteration #     79 number  5392830684238212395 is not prime
+Producer 0 iteration #     90 value  16055485760320614707
+Producer 0 iteration #     91 value  10716408927228134716
+Consumer 1 iteration #     80 number 16055485760320614707 is not prime
+Consumer 1 iteration #     81 number 10716408927228134716 is not prime
+Producer 0 iteration #     92 value   1565664477972134420
+Consumer 1 iteration #     82 number  1565664477972134420 is not prime
+Producer 0 iteration #     93 value  15796081587463799891
+Consumer 1 iteration #     83 number 15796081587463799891 is not prime
+Producer 0 iteration #     94 value  12672462769981617533
+Consumer 1 iteration #     84 number 12672462769981617533 is not prime
+Producer 0 iteration #     95 value   2455746526324359182
+Consumer 1 iteration #     85 number  2455746526324359182 is not prime
+Producer 0 iteration #     96 value  13628355411392024027
+Consumer 1 iteration #     86 number 13628355411392024027 is not prime
+Producer 0 iteration #     97 value   2970455394691951488
+Consumer 1 iteration #     87 number  2970455394691951488 is not prime
+Producer 0 iteration #     98 value  11668437392613362724
+Consumer 1 iteration #     88 number 11668437392613362724 is not prime
+Producer 0 iteration #     99 value  15802822536187436033
+Producer 0 iteration #    100 value   3176956739203202303
+Consumer 1 iteration #     89 number 15802822536187436033 is not prime
+Producer 0 iteration #    101 value  12537573013353700392
+Consumer 1 iteration #     90 number  3176956739203202303 is not prime
+Consumer 1 iteration #     91 number 12537573013353700392 is not prime
+Producer 0 iteration #    102 value   6003571168899455377
+Producer 0 iteration #    103 value   1578123366172025228
+Consumer 1 iteration #     92 number  6003571168899455377 is not prime
+Consumer 1 iteration #     93 number  1578123366172025228 is not prime
+Producer 0 iteration #    104 value   5588164788721984272
+Consumer 1 iteration #     94 number  5588164788721984272 is not prime
+Producer 0 iteration #    105 value   4642472228976002749
+Producer 0 iteration #    106 value   3467780903220219832
+Consumer 1 iteration #     95 number  4642472228976002749 is not prime
+Consumer 1 iteration #     96 number  3467780903220219832 is not prime
+Producer 0 iteration #    107 value  14008227981924044893
+Producer 0 iteration #    108 value   4627807918276155146
+Consumer 3 iteration #      6 number 15545179353524568413 is prime
+Consumer 3 iteration #      7 number  4627807918276155146 is not prime
+Producer 0 iteration #    109 value  15421991744170097461
+Producer 0 iteration #    110 value  15782007851160680578
+Consumer 2 iteration #      2 number 17614912136905895761 is prime
+Consumer 2 iteration #      3 number 15782007851160680578 is not prime
+Consumer 2 iteration #      4 number 11492887534506070554 is not prime
+Producer 0 iteration #    111 value  11492887534506070554
+Producer 0 iteration #    112 value  15842288155631759533
+Consumer 2 iteration #      5 number 15842288155631759533 is not prime
+Producer 0 iteration #    113 value  15848191611697376876
+Consumer 2 iteration #      6 number 15848191611697376876 is not prime
+Producer 0 iteration #    114 value  15249955520369072404
+Consumer 2 iteration #      7 number 15249955520369072404 is not prime
+Producer 0 iteration #    115 value   1068075302014732929
+Consumer 2 iteration #      8 number  1068075302014732929 is not prime
+Producer 0 iteration #    116 value   6733316935936375488
+Consumer 2 iteration #      9 number  6733316935936375488 is not prime
+Producer 0 iteration #    117 value  10982601735122566592
+Consumer 2 iteration #     10 number 10982601735122566592 is not prime
+Producer 0 iteration #    118 value  15273225559198810406
+Consumer 2 iteration #     11 number 15273225559198810406 is not prime
+Producer 0 iteration #    119 value  17954759741887453847
+Consumer 2 iteration #     12 number 17954759741887453847 is not prime
+Producer 0 iteration #    120 value  12257344409191506800
+Consumer 2 iteration #     13 number 12257344409191506800 is not prime
+Producer 0 iteration #    121 value   7428810335586446426
+Consumer 2 iteration #     14 number  7428810335586446426 is not prime
+Producer 0 iteration #    122 value  17274762567973374000
+Consumer 2 iteration #     15 number 17274762567973374000 is not prime
+Producer 0 iteration #    123 value   7020981202909075000
+Consumer 2 iteration #     16 number  7020981202909075000 is not prime
+Producer 0 iteration #    124 value   4133413116820938033
+Consumer 2 iteration #     17 number  4133413116820938033 is not prime
+Producer 0 iteration #    125 value   9033272636185151950
+Consumer 2 iteration #     18 number  9033272636185151950 is not prime
+Producer 0 iteration #    126 value   3351192031818134092
+Consumer 2 iteration #     19 number  3351192031818134092 is not prime
+Producer 0 iteration #    127 value   2364879629859318952
+Consumer 2 iteration #     20 number  2364879629859318952 is not prime
+Producer 0 iteration #    128 value   6999226871001937942
+Consumer 2 iteration #     21 number  6999226871001937942 is not prime
+Producer 0 iteration #    129 value   2858190643126429132
+Consumer 2 iteration #     22 number  2858190643126429132 is not prime
+Producer 0 iteration #    130 value    896329665785238790
+Consumer 2 iteration #     23 number   896329665785238790 is not prime
+Producer 0 iteration #    131 value    884248301457063310
+Consumer 2 iteration #     24 number   884248301457063310 is not prime
+Producer 0 iteration #    132 value  13579889305068052577
+Consumer 2 iteration #     25 number 13579889305068052577 is not prime
+Producer 0 iteration #    133 value  15515496911847392174
+Consumer 2 iteration #     26 number 15515496911847392174 is not prime
+Producer 0 iteration #    134 value   4224354241365366226
+Consumer 2 iteration #     27 number  4224354241365366226 is not prime
+Producer 0 iteration #    135 value  11074482529039115939
+Producer 0 iteration #    136 value   7908489167654321175
+Consumer 2 iteration #     28 number 11074482529039115939 is not prime
+Consumer 2 iteration #     29 number  7908489167654321175 is not prime
+Producer 0 iteration #    137 value   7022072115507729705
+Consumer 2 iteration #     30 number  7022072115507729705 is not prime
+Producer 0 iteration #    138 value  13084037623215382763
+Consumer 2 iteration #     31 number 13084037623215382763 is not prime
+Producer 0 iteration #    139 value   3528033335692006301
+Consumer 2 iteration #     32 number  3528033335692006301 is not prime
+Producer 0 iteration #    140 value   7376600310976927293
+Consumer 2 iteration #     33 number  7376600310976927293 is not prime
+Producer 0 iteration #    141 value   9886021055338442443
+Consumer 2 iteration #     34 number  9886021055338442443 is not prime
+Producer 0 iteration #    142 value   1130669869747947497
+Consumer 2 iteration #     35 number  1130669869747947497 is not prime
+Producer 0 iteration #    143 value  16535077122600244848
+Consumer 2 iteration #     36 number 16535077122600244848 is not prime
+Producer 0 iteration #    144 value  11867962876475057436
+Consumer 2 iteration #     37 number 11867962876475057436 is not prime
+Producer 0 iteration #    145 value  14301863681179894374
+Consumer 2 iteration #     38 number 14301863681179894374 is not prime
+Producer 0 iteration #    146 value   4129352426643240664
+Consumer 2 iteration #     39 number  4129352426643240664 is not prime
+Producer 0 iteration #    147 value  18182156012400057239
+Consumer 2 iteration #     40 number 18182156012400057239 is not prime
+Producer 0 iteration #    148 value   4641145730354838706
+Consumer 2 iteration #     41 number  4641145730354838706 is not prime
+Producer 0 iteration #    149 value    418941973668222617
+Consumer 2 iteration #     42 number   418941973668222617 is not prime
+Producer 0 iteration #    150 value  10860348332841599032
+Consumer 2 iteration #     43 number 10860348332841599032 is not prime
+Producer 0 iteration #    151 value  18261687408532790809
+Consumer 2 iteration #     44 number 18261687408532790809 is not prime
+Producer 0 iteration #    152 value  12877535677558184530
+Consumer 2 iteration #     45 number 12877535677558184530 is not prime
+Producer 0 iteration #    153 value  14770295510034148574
+Consumer 2 iteration #     46 number 14770295510034148574 is not prime
+Producer 0 iteration #    154 value   9885013543275255753
+Consumer 2 iteration #     47 number  9885013543275255753 is not prime
+Producer 0 iteration #    155 value     61092692573711228
+Consumer 2 iteration #     48 number    61092692573711228 is not prime
+Producer 0 iteration #    156 value   2042925146660822366
+Consumer 2 iteration #     49 number  2042925146660822366 is not prime
+Producer 0 iteration #    157 value    401841057172828188
+Consumer 2 iteration #     50 number   401841057172828188 is not prime
+Producer 0 iteration #    158 value   7595042349903877088
+Consumer 2 iteration #     51 number  7595042349903877088 is not prime
+Producer 0 iteration #    159 value  16879668850683747094
+Consumer 2 iteration #     52 number 16879668850683747094 is not prime
+Producer 0 iteration #    160 value   6010652712405018402
+Consumer 2 iteration #     53 number  6010652712405018402 is not prime
+Producer 0 iteration #    161 value   6657308194373808595
+Consumer 2 iteration #     54 number  6657308194373808595 is not prime
+Producer 0 iteration #    162 value  12969850969388820536
+Consumer 2 iteration #     55 number 12969850969388820536 is not prime
+Producer 0 iteration #    163 value  17121559935847529367
+Consumer 2 iteration #     56 number 17121559935847529367 is not prime
+Producer 0 iteration #    164 value   8922541255213270931
+Producer 0 iteration #    165 value  13116246881251302243
+Consumer 2 iteration #     57 number  8922541255213270931 is not prime
+Consumer 2 iteration #     58 number 13116246881251302243 is not prime
+Producer 0 iteration #    166 value  11326748604571681422
+Consumer 2 iteration #     59 number 11326748604571681422 is not prime
+Producer 0 iteration #    167 value   6633716714228570733
+Consumer 2 iteration #     60 number  6633716714228570733 is not prime
+Producer 0 iteration #    168 value  17253188459134636398
+Consumer 2 iteration #     61 number 17253188459134636398 is not prime
+Producer 0 iteration #    169 value   6499442702546071973
+Producer 0 iteration #    170 value  13923605646254908464
+Consumer 2 iteration #     62 number  6499442702546071973 is not prime
+Consumer 2 iteration #     63 number 13923605646254908464 is not prime
+Producer 0 iteration #    171 value    412432305928107186
+Consumer 2 iteration #     64 number   412432305928107186 is not prime
+Producer 0 iteration #    172 value  15040446586655852559
+Consumer 2 iteration #     65 number 15040446586655852559 is not prime
+Producer 0 iteration #    173 value   2611456640585750141
+Producer 0 iteration #    174 value   3619911644795671144
+Consumer 1 iteration #     97 number 14008227981924044893 is prime
+Consumer 1 iteration #     98 number  3619911644795671144 is not prime
+Consumer 1 iteration #     99 number 14952709881168912505 is not prime
+Producer 0 iteration #    175 value  14952709881168912505
+Producer 0 iteration #    176 value   5684109034435359482
+Consumer 1 iteration #    100 number  5684109034435359482 is not prime
+Producer 0 iteration #    177 value   7934681264252855260
+Consumer 1 iteration #    101 number  7934681264252855260 is not prime
+Producer 0 iteration #    178 value   3300084228513665523
+Consumer 1 iteration #    102 number  3300084228513665523 is not prime
+Producer 0 iteration #    179 value  14734347297947047374
+Consumer 1 iteration #    103 number 14734347297947047374 is not prime
+Producer 0 iteration #    180 value  12566423745420006957
+Consumer 1 iteration #    104 number 12566423745420006957 is not prime
+Producer 0 iteration #    181 value   3382901544823935819
+Consumer 1 iteration #    105 number  3382901544823935819 is not prime
+Producer 0 iteration #    182 value  11710961322248933997
+Consumer 1 iteration #    106 number 11710961322248933997 is not prime
+Producer 0 iteration #    183 value  14583070165875973719
+Consumer 1 iteration #    107 number 14583070165875973719 is not prime
+Producer 0 iteration #    184 value   7121316323052368754
+Consumer 1 iteration #    108 number  7121316323052368754 is not prime
+Producer 0 iteration #    185 value   7144640048119086695
+Consumer 1 iteration #    109 number  7144640048119086695 is not prime
+Producer 0 iteration #    186 value  15559042110878245430
+Consumer 1 iteration #    110 number 15559042110878245430 is not prime
+Producer 0 iteration #    187 value   9951692487012466524
+Consumer 1 iteration #    111 number  9951692487012466524 is not prime
+Producer 0 iteration #    188 value   5624332432033256176
+Consumer 1 iteration #    112 number  5624332432033256176 is not prime
+Producer 0 iteration #    189 value   3140904131030440259
+Consumer 1 iteration #    113 number  3140904131030440259 is not prime
+Producer 0 iteration #    190 value  15238331271311579290
+Consumer 1 iteration #    114 number 15238331271311579290 is not prime
+Producer 0 iteration #    191 value   1667586823813154771
+Consumer 1 iteration #    115 number  1667586823813154771 is not prime
+Producer 0 iteration #    192 value   9549139311322434735
+Consumer 1 iteration #    116 number  9549139311322434735 is not prime
+Producer 0 iteration #    193 value   6786318364341092210
+Consumer 1 iteration #    117 number  6786318364341092210 is not prime
+Producer 0 iteration #    194 value   9770890183150580872
+Consumer 1 iteration #    118 number  9770890183150580872 is not prime
+Producer 0 iteration #    195 value   8163359605669008420
+Consumer 1 iteration #    119 number  8163359605669008420 is not prime
+Producer 0 iteration #    196 value  11964304118924728151
+Consumer 1 iteration #    120 number 11964304118924728151 is not prime
+Producer 0 iteration #    197 value  14715090263093311424
+Consumer 1 iteration #    121 number 14715090263093311424 is not prime
+Producer 0 iteration #    198 value  14253644546756188756
+Consumer 1 iteration #    122 number 14253644546756188756 is not prime
+Producer 0 iteration #    199 value    329166851101166895
+Consumer 1 iteration #    123 number   329166851101166895 is not prime
+Producer 0 iteration #    200 value  11945253712518772211
+Producer 0 iteration #    201 value   4063088864464666308
+Consumer 1 iteration #    124 number 11945253712518772211 is not prime
+Consumer 1 iteration #    125 number  4063088864464666308 is not prime
+Producer 0 iteration #    202 value  10344853725340219210
+Consumer 1 iteration #    126 number 10344853725340219210 is not prime
+Producer 0 iteration #    203 value   1715754498183105324
+Consumer 1 iteration #    127 number  1715754498183105324 is not prime
+Producer 0 iteration #    204 value     12422738477716680
+Consumer 1 iteration #    128 number    12422738477716680 is not prime
+Producer 0 iteration #    205 value  10206343386494348936
+Consumer 1 iteration #    129 number 10206343386494348936 is not prime
+Producer 0 iteration #    206 value   8826842712620263393
+Producer 0 iteration #    207 value   6171772183272212855
 ```
