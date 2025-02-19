@@ -1,9 +1,16 @@
 # shared_memory
-Example of using shared memory with semaphores for IPC
+Examples of using shared memory with semaphores for IPC
 
-There is one `Producer` and several `Consumer`s. 
+There are three examples:
+1. shared memory have only one value.
+2. shared memory has an array of values.
+3. like example 2, just the consumer uses four threads.
+
+There is one `Producer` and one or more `Consumer`s. 
 
 Each one of them runs in a different process.
+
+# Example 1
 
 The `Producer` produces a random number and puts it in the shared memory.
 
@@ -13,6 +20,12 @@ The `Consumer`
 3. checks if this number is prime async.
 
 The write and read from the shared memory are protected by semaphores.
+
+# Example 2
+Instead of random integer there is an array of coordinates, there is no copy of the data.
+
+# Example 3
+Like in Example 2, however, there are four threads in the consumer, each one of them take a part of the array and calculates the norm. 
 
 # Usage
 Tested on Ubuntu 24.04
@@ -36,7 +49,7 @@ chmod +x ./kill.sh
 ./kill.sh
 ```
 
-# Expected logs
+# Expected logs for example 1
 ```
 Producer 0 attached the memory to its virtual space...
 Producer 0 iteration #      0 value   5482698876454931888
@@ -457,4 +470,192 @@ Producer 0 iteration #    205 value  10206343386494348936
 Consumer 1 iteration #    129 number 10206343386494348936 is not prime
 Producer 0 iteration #    206 value   8826842712620263393
 Producer 0 iteration #    207 value   6171772183272212855
+```
+
+# Expected logs for example 2
+```
+Producer 0 attached the memory to its virtual space...
+Producer 0 iteration #      0
+Consumer 3 has received a shared memory...
+Consumer 3 has attached the shared memory to it's virtual memory space...
+Consumer 3 iteration #      0 duration 141978ns
+Producer 0 iteration #      1
+Consumer 1 has received a shared memory...
+Consumer 1 has attached the shared memory to it's virtual memory space...
+Consumer 1 iteration #      0 duration 88082ns
+Producer 0 iteration #      2
+Consumer 2 has received a shared memory...
+Consumer 2 has attached the shared memory to it's virtual memory space...
+Consumer 2 iteration #      0 duration 69730ns
+Producer 0 iteration #      3
+Consumer 3 iteration #      1 duration 56219ns
+Producer 0 iteration #      4
+Consumer 1 iteration #      1 duration 35733ns
+Producer 0 iteration #      5
+Consumer 2 iteration #      1 duration 56679ns
+Producer 0 iteration #      6
+Consumer 3 iteration #      2 duration 79063ns
+Producer 0 iteration #      7
+Consumer 1 iteration #      2 duration 41290ns
+Producer 0 iteration #      8
+Consumer 2 iteration #      2 duration 58856ns
+Producer 0 iteration #      9
+Consumer 3 iteration #      3 duration 58602ns
+Producer 0 iteration #     10
+Consumer 1 iteration #      3 duration 35081ns
+Producer 0 iteration #     11
+Consumer 2 iteration #      3 duration 35224ns
+Producer 0 iteration #     12
+Consumer 3 iteration #      4 duration 31841ns
+Producer 0 iteration #     13
+Consumer 1 iteration #      4 duration 23944ns
+Producer 0 iteration #     14
+Consumer 2 iteration #      4 duration 27554ns
+Producer 0 iteration #     15
+Consumer 3 iteration #      5 duration 58379ns
+Producer 0 iteration #     16
+Consumer 1 iteration #      5 duration 60554ns
+Producer 0 iteration #     17
+Consumer 2 iteration #      5 duration 49429ns
+Producer 0 iteration #     18
+Consumer 3 iteration #      6 duration 62255ns
+Producer 0 iteration #     19
+Consumer 1 iteration #      6 duration 41864ns
+Producer 0 iteration #     20
+Consumer 2 iteration #      6 duration 62370ns
+Producer 0 iteration #     21
+Consumer 3 iteration #      7 duration 55304ns
+Producer 0 iteration #     22
+Consumer 1 iteration #      7 duration 42153ns
+Producer 0 iteration #     23
+Consumer 2 iteration #      7 duration 36353ns
+Producer 0 iteration #     24
+Consumer 3 iteration #      8 duration 43644ns
+Producer 0 iteration #     25
+Consumer 1 iteration #      8 duration 63028ns
+Producer 0 iteration #     26
+Consumer 2 iteration #      8 duration 62251ns
+Producer 0 iteration #     27
+Consumer 3 iteration #      9 duration 31865ns
+Producer 0 iteration #     28
+Consumer 1 iteration #      9 duration 34123ns
+```
+
+# Expected logs for example 3
+```
+Producer 0 attached the memory to its virtual space...
+Producer 0 iteration #      0
+Consumer 1 has received a shared memory...
+Consumer 1 has attached the shared memory to it's virtual memory space...
+Consumer 1 iteration #      0 duration 40446ns
+Producer 0 iteration #      1
+Consumer 1 iteration #      1 duration 37203ns
+Producer 0 iteration #      2
+Consumer 1 iteration #      2 duration 4877ns
+Producer 0 iteration #      3
+Consumer 1 iteration #      3 duration 18756ns
+Producer 0 iteration #      4
+Consumer 1 iteration #      4 duration 7286ns
+Producer 0 iteration #      5
+Consumer 1 iteration #      5 duration 14801ns
+Producer 0 iteration #      6
+Consumer 1 iteration #      6 duration 8446ns
+Producer 0 iteration #      7
+Consumer 1 iteration #      7 duration 10720ns
+Producer 0 iteration #      8
+Consumer 1 iteration #      8 duration 6558ns
+Producer 0 iteration #      9
+Consumer 1 iteration #      9 duration 4994ns
+Producer 0 iteration #     10
+Consumer 1 iteration #     10 duration 3823ns
+Producer 0 iteration #     11
+Consumer 1 iteration #     11 duration 4544ns
+Producer 0 iteration #     12
+Consumer 1 iteration #     12 duration 3684ns
+Producer 0 iteration #     13
+Consumer 1 iteration #     13 duration 5602ns
+Producer 0 iteration #     14
+Consumer 1 iteration #     14 duration 4896ns
+Producer 0 iteration #     15
+Consumer 1 iteration #     15 duration 3995ns
+Producer 0 iteration #     16
+Consumer 1 iteration #     16 duration 8146ns
+Producer 0 iteration #     17
+Consumer 1 iteration #     17 duration 2399ns
+Producer 0 iteration #     18
+Consumer 1 iteration #     18 duration 2111ns
+Producer 0 iteration #     19
+Consumer 1 iteration #     19 duration 3997ns
+Producer 0 iteration #     20
+Consumer 1 iteration #     20 duration 3498ns
+Producer 0 iteration #     21
+Consumer 1 iteration #     21 duration 2173ns
+Producer 0 iteration #     22
+Consumer 1 iteration #     22 duration 3703ns
+Producer 0 iteration #     23
+Consumer 1 iteration #     23 duration 2036ns
+Producer 0 iteration #     24
+Consumer 1 iteration #     24 duration 2417ns
+Producer 0 iteration #     25
+Consumer 1 iteration #     25 duration 3820ns
+Producer 0 iteration #     26
+Consumer 1 iteration #     26 duration 2009ns
+Producer 0 iteration #     27
+Consumer 1 iteration #     27 duration 3893ns
+Producer 0 iteration #     28
+Consumer 1 iteration #     28 duration 1903ns
+Producer 0 iteration #     29
+Consumer 1 iteration #     29 duration 3263ns
+Producer 0 iteration #     30
+Consumer 1 iteration #     30 duration 3576ns
+Producer 0 iteration #     31
+Consumer 1 iteration #     31 duration 3403ns
+Producer 0 iteration #     32
+Consumer 1 iteration #     32 duration 2129ns
+Producer 0 iteration #     33
+Consumer 1 iteration #     33 duration 3725ns
+Producer 0 iteration #     34
+Consumer 1 iteration #     34 duration 2306ns
+Producer 0 iteration #     35
+Consumer 1 iteration #     35 duration 3481ns
+Producer 0 iteration #     36
+Consumer 1 iteration #     36 duration 3351ns
+Producer 0 iteration #     37
+Consumer 1 iteration #     37 duration 2204ns
+Producer 0 iteration #     38
+Consumer 1 iteration #     38 duration 3374ns
+Producer 0 iteration #     39
+Consumer 1 iteration #     39 duration 3503ns
+Producer 0 iteration #     40
+Consumer 1 iteration #     40 duration 2103ns
+Producer 0 iteration #     41
+Consumer 1 iteration #     41 duration 2347ns
+Producer 0 iteration #     42
+Consumer 1 iteration #     42 duration 2274ns
+Producer 0 iteration #     43
+Consumer 1 iteration #     43 duration 4362ns
+Producer 0 iteration #     44
+Consumer 1 iteration #     44 duration 6186ns
+Producer 0 iteration #     45
+Consumer 1 iteration #     45 duration 4928ns
+Producer 0 iteration #     46
+Consumer 1 iteration #     46 duration 8425ns
+Producer 0 iteration #     47
+Consumer 1 iteration #     47 duration 1849ns
+Producer 0 iteration #     48
+Consumer 1 iteration #     48 duration 3121ns
+Producer 0 iteration #     49
+Consumer 1 iteration #     49 duration 1939ns
+Producer 0 iteration #     50
+Consumer 1 iteration #     50 duration 2153ns
+Producer 0 iteration #     51
+Consumer 1 iteration #     51 duration 3997ns
+Producer 0 iteration #     52
+Consumer 1 iteration #     52 duration 2453ns
+Producer 0 iteration #     53
+Consumer 1 iteration #     53 duration 10874ns
+Producer 0 iteration #     54
+Consumer 1 iteration #     54 duration 4145ns
+Producer 0 iteration #     55
+Consumer 1 iteration #     55 duration 2514ns
 ```
