@@ -44,6 +44,7 @@ int main(int argc, char *argv[]) {
 
   std::list<CustomThread> threads;
 
+  // prepare threads
   for (int i{0}; i < kNumThreads; ++i) {
     // Note: assumes kNumPoints % kNumThread is zero
     threads.emplace_back(core_id + i + 1, shm_ptr, i * kNumPoints / kNumThreads,
@@ -60,12 +61,14 @@ int main(int argc, char *argv[]) {
 
     start = std::chrono::high_resolution_clock::now();
 
+    // start threads
     for (auto &thread : threads) {
       std::lock_guard<std::mutex> lck2(thread.mtx2_);
       thread.flag = true;
       thread.thread_condition_variable_.notify_all();
     }
 
+    // wait for threads to finish
     for (auto &thread : threads) {
       std::unique_lock<std::mutex> lck1(thread.mtx1_);
       thread.main_thread_condition_variable_.wait(
