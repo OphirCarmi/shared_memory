@@ -12,7 +12,7 @@ static std::mt19937_64 rng(dev());
 static std::uniform_int_distribution<uint64_t>
     dist(1, std::numeric_limits<uint64_t>::max());
 
-static constexpr int num_iterations{1000000};
+static constexpr int num_iterations{1'000'000};
 
 int main(int argc, char *argv[]) {
   if (argc < 2) {
@@ -47,7 +47,7 @@ int main(int argc, char *argv[]) {
     // lock the producer semaphore
     sem_wait(&shm_ptr->producer);
 
-    // get random number and put it to the new position
+    // get random number and put it in the shared memory
     shm_ptr->data = dist(rng);
 
     // unlock the consumers semaphore

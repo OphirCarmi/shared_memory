@@ -6,7 +6,7 @@
 
 #include "common.h"
 
-static constexpr int num_iterations{1000000};
+static constexpr int num_iterations{1'000'000};
 
 bool IsPrime(uint64_t num) {
   const uint32_t sqrt{static_cast<uint32_t>(std::sqrt(num))};
@@ -42,17 +42,19 @@ int main(int argc, char *argv[]) {
   std::cout << "Consumer " << core_id << " has attached the shared memory to it's virtual memory "
                "space...\n";
 
+  uint64_t current_number{0};
+  bool is_prime{false};
   for (int i = 0; i < num_iterations; ++i) {
     // lock the consumers semaphore
     sem_wait(&shm_ptr->consumers);
     
-    // copy the number from the array
-    uint64_t current_number{shm_ptr->data};
+    // copy the number from the shared memory
+    current_number = shm_ptr->data;
     
     // unlock the producer semaphore
     sem_post(&shm_ptr->producer);
 
-    const bool is_prime{IsPrime(current_number)};
+    is_prime = IsPrime(current_number);
 
     std::cout << "Consumer " << core_id << " iteration #" << std::setw(7) << i << " number "
               << std::setw(20) << current_number << " is "

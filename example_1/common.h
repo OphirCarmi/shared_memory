@@ -1,7 +1,6 @@
 #ifndef COMMON_
 #define COMMON_
 
-#include <array>
 #include <cstdint>
 #include <iostream>
 
