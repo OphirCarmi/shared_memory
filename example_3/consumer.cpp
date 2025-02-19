@@ -66,7 +66,6 @@ int main(int argc, char *argv[]) {
       thread.thread_condition_variable_.notify_all();
     }
 
-    int j{0};
     for (auto &thread : threads) {
       std::unique_lock<std::mutex> lck1(thread.mtx1_);
       thread.main_thread_condition_variable_.wait(
