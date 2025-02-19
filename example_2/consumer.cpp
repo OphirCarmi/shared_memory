@@ -8,7 +8,7 @@
 
 #include "common.h"
 
-static constexpr int num_iterations{1'000'000};
+static constexpr int kNumIterations{1'000'000};
 
 int main(int argc, char *argv[]) {
   if (argc < 2) {
@@ -39,7 +39,7 @@ int main(int argc, char *argv[]) {
   int j{0};
   std::chrono::high_resolution_clock::time_point start;
   int64_t elapsed{-1};
-  for (int i = 0; i < num_iterations; ++i) {
+  for (int i = 0; i < kNumIterations; ++i) {
     // lock the consumers semaphore
     sem_wait(&shm_ptr->consumers);
 

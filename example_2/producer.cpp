@@ -11,7 +11,7 @@ static std::random_device dev;
 static std::mt19937 rng(dev());
 static std::uniform_real_distribution<float> dist(0, 10);
 
-static constexpr int num_iterations{1'000'000};
+static constexpr int kNumIterations{1'000'000};
 
 int main(int argc, char *argv[]) {
   if (argc < 2) {
@@ -42,7 +42,7 @@ int main(int argc, char *argv[]) {
   sem_init(&shm_ptr->producer, !0, 1);
   sem_init(&shm_ptr->consumers, !0, 0);
 
-  for (int i = 0; i < num_iterations; ++i) {
+  for (int i = 0; i < kNumIterations; ++i) {
     // lock the producer semaphore
     sem_wait(&shm_ptr->producer);
 

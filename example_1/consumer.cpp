@@ -6,7 +6,7 @@
 
 #include "common.h"
 
-static constexpr int num_iterations{1'000'000};
+static constexpr int kNumIterations{1'000'000};
 
 bool IsPrime(uint64_t num) {
   const uint32_t sqrt{static_cast<uint32_t>(std::sqrt(num))};
@@ -44,7 +44,7 @@ int main(int argc, char *argv[]) {
 
   uint64_t current_number{0};
   bool is_prime{false};
-  for (int i = 0; i < num_iterations; ++i) {
+  for (int i = 0; i < kNumIterations; ++i) {
     // lock the consumers semaphore
     sem_wait(&shm_ptr->consumers);
     
