@@ -10,7 +10,7 @@ static constexpr int kNumIterations{1'000'000};
 
 bool IsPrime(uint64_t num) {
   const uint32_t sqrt{static_cast<uint32_t>(std::sqrt(num))};
-  for (uint32_t i = 2; i < sqrt + 1; ++i)
+  for (uint32_t i{2}; i < sqrt + 1; ++i)
     if (num % i == 0)
       return false;
   return true;
@@ -44,7 +44,7 @@ int main(int argc, char *argv[]) {
 
   uint64_t current_number{0};
   bool is_prime{false};
-  for (int i = 0; i < kNumIterations; ++i) {
+  for (int i{0}; i < kNumIterations; ++i) {
     // lock the consumers semaphore
     sem_wait(&shm_ptr->consumers);
     

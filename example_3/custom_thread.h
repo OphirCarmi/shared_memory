@@ -25,7 +25,7 @@ public:
   std::condition_variable main_thread_condition_variable_;
   std::condition_variable thread_condition_variable_;
 
-  bool flag{false};
+  bool flag_{false};
 
 private:
   void Execute() {

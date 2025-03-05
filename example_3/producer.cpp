@@ -42,7 +42,7 @@ int main(int argc, char *argv[]) {
   sem_init(&shm_ptr->producer, !0, 1);
   sem_init(&shm_ptr->consumers, !0, 0);
 
-  for (int i = 0; i < kNumIterations; ++i) {
+  for (int i{0}; i < kNumIterations; ++i) {
     // lock the producer semaphore
     sem_wait(&shm_ptr->producer);
 

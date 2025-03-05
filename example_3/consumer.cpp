@@ -64,7 +64,7 @@ int main(int argc, char *argv[]) {
     // start threads
     for (auto &thread : threads) {
       std::lock_guard<std::mutex> lck2(thread.mtx2_);
-      thread.flag = true;
+      thread.flag_ = true;
       thread.thread_condition_variable_.notify_all();
     }
 
@@ -72,8 +72,8 @@ int main(int argc, char *argv[]) {
     for (auto &thread : threads) {
       std::unique_lock<std::mutex> lck1(thread.mtx1_);
       thread.main_thread_condition_variable_.wait(
-          lck1, [&]() { return thread.flag; });
-      thread.flag = false;
+          lck1, [&]() { return thread.flag_; });
+      thread.flag_ = false;
     }
 
     elapsed = std::chrono::duration_cast<std::chrono::nanoseconds>(
