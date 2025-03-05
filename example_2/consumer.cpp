@@ -28,7 +28,7 @@ int main(int argc, char *argv[]) {
   std::cout << "Consumer " << core_id << " has received a shared memory...\n";
 
   // attach to the existing shared memory
-  Memory *shm_ptr{reinterpret_cast<Memory *>(shmat(shm_id, NULL, 0))};
+  Memory *shm_ptr{reinterpret_cast<Memory *>(shmat(shm_id, nullptr, 0))};
   if (reinterpret_cast<intptr_t>(shm_ptr) == -1) {
     std::cout << "shmat error (consumer)\n";
     return -2;

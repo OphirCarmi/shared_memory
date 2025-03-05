@@ -14,13 +14,13 @@ struct Point {
   float y;
 };
 
-constexpr int N{10'000};
+constexpr int kNumPoints{10'000};
 
 struct Memory {
   sem_t producer;
   sem_t consumers;
-  std::array<Point, N> data;
-  std::array<float, N> answer;
+  std::array<Point, kNumPoints> data;
+  std::array<float, kNumPoints> answer;
 };
 
 inline void SetAffinity(const int cpu_ind) {
